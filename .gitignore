@@ -26,3 +26,5 @@ replay_pid*
 # Configuracoes do IntelliJ
 .idea/
 *.iml
+
+out/
