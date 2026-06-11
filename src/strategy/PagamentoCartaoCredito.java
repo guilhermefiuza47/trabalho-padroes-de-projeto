@@ -1,5 +1,6 @@
 package strategy;
 
+// Forma de pagamento no cartão de crédito com parcelamento
 public class PagamentoCartaoCredito implements FormaDePagamento {
 
     private int parcela;

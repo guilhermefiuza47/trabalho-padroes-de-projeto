@@ -1,21 +1,13 @@
 # Padrões de Projeto em Java
 
-Atividade da disciplina de Engenharia de Software. Foram implementados três padrões de projeto com base no catálogo do Refactoring Guru, sendo um criacional (Singleton), um estrutural (Facade) e um comportamental (Strategy).
+Atividade da disciplina de Engenharia de Software, orientada pelo Professor Igor Wiese, na UTFPR campus Campo Mourão.
 
-**Utilização de IA:** O Gemini 3.1 Pro foi usado apenas para dar as ideias dos problemas aplicados nos exemplos de cada padrão. O código e a documentação foram feitos manualmente.
+Foram implementados três padrões em Java com base no [Refactoring Guru](https://refactoring.guru/pt-br/design-patterns/catalog), sendo um criacional, um estrutural e um comportamental:
 
-## 1. Singleton (Criacional)
+- [Singleton](src/singleton/README.md) (Criacional)
+- [Facade](src/facade/README.md) (Estrutural)
+- [Strategy](src/strategy/README.md) (Comportamental)
 
-**Problema:** Configurações globais precisam ser acessadas por todo o sistema. Se cada classe criar a sua própria instância para gerenciar isso, haverá desperdício de memória e o risco de uma parte do sistema usar um idioma ou tema diferente da outra.
+### Utilização de LLM
 
-## 2. Facade (Estrutural)
-
-**Problema:** Ligar um home theater exige chamar métodos em várias classes diferentes (Projetor, Som, Streaming). O código cliente (a classe principal) teria que conhecer e orquestrar tudo isso manualmente, gerando um código repetitivo e engessado.
-
-## 3. Strategy (Comportamental)
-
-**Problema:** Um pedido pode ser pago com Pix, Cartão ou Boleto. Colocar tudo isso em if/else dentro da classe Pedido deixa o código confuso e difícil de expandir.
-
-## Referências
-
-* Refactoring.Guru — O Catálogo de Padrões de Projeto: <https://refactoring.guru/pt-br/design-patterns/catalog>
+O Google Gemini foi utilizado como apoio neste trabalho. A IA me ajudou a entender melhor os conceitos de cada padrão, sugeriu os cenários práticos dos exemplos com problemas diferentes dos apresentados no Refactoring Guru e revisou os códigos que implementei.
